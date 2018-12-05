@@ -3,7 +3,11 @@ var Jet = function (color, size) {
   this.size = size;
 
   this.fly = function () {
-    console.log('lift off!');
+    console.log('whoosh!');
+  }
+
+  this.takeoff = function () {
+    console.log('liftoff!');
   }
 }
 
