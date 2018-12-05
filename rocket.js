@@ -1,5 +1,6 @@
-const Rocket = () => {
-
+const Rocket = (color, size) => {
+  this.color = color;
+  this.size = size;
 };
 
-const myRocket = new Rocket();
+module.exports = Rocket;
